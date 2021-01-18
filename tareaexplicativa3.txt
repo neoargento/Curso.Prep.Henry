@@ -1,0 +1,17 @@
+Conceptos a saber:
+* For: cuando ejecutamos programas es común que éstos se repitan varias veces hasta devolver lo que buscamos.
+Esta acción se conoce como bucle y existen expresiones utilizadas para ejecutar estos bloques repetitivos, una
+de ellas es "FOR". Esta sintaxis lo que hace es ejecutar el código conociendo de antemano la cantidad de veces 
+que deberá repetirse.  Se diferencia de la otra expresión también utilizada en bucles ("WHILE") que repite el código
+sin saber la cantidad de veces que lo hará, siempre y cuando se cumpla la expresión condicional a la que invoca.
+La estructura de la expresión FOR es: 
+for (declaración de variable, expresión condicional, incremental de variable) {}
+Estas expresiones se utilizan para evitar repetir códigos.   
+
+* Operadores lógicos:
+ - &&: "AND"  ---> evalua dos expresiones y devolverá verdadero si ambas son "true", sino si una es falsa ( o ambas)
+ devolverá "false".
+
+ - ||: "OR"   ---> evalua dos expresiones y devolverá verdadero si una o ambas son "true", sino devolverá "false".
+
+ - !: "NOT"   ---> evalua dos expresiones y devolverá el valor booleano opuesto (si es "true", devolverá "false").
